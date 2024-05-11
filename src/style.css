@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card-container {
+  position: relative;
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid black;
+  border-style: outset;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-symbol-up {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 80px;
+}
+
+.card-number {
+  font-size: 90px;
+  position: absolute;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+}
+
+.card-symbol-down {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+
+.red-text {
+  color: red;
+}
